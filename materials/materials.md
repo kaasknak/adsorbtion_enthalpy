@@ -1,1 +1,3 @@
-[SiO2](materials/SiO2.md) [formula](materials/SiO2formula.md)
+| Adsorbent | |
+| --- | --- |
+| [SiO2](SiO2.md) | [formula](SiO2formula.md) |
