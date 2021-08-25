@@ -12,7 +12,7 @@ In order to add an enthalpy do the following:
  3. Add a line to your newly created file at the proper alphabetical place for your adsorbate(s).
  4. `| Adsorbate_name | Enthalpy_value (in kJ/mol) | source |`
  5. If your source is a scientific paper please add the source using the following syntax `[DOI](http://doilink)` where `http://doilink` is the DOI-link of the article. If the link is a book or some other source please write it out clearly and consise so others can find it.
- 6. If required add your adsorbent to the `materials/masterials.md` file.
+ 6. If required add your adsorbent to the `materials/materials.md` file.
  7. Send a pull request and I will merge it to the master branch.
 
 If you have a formula / semi-empirical formula that does not lend itself to a single table value you might have to be a bit more creative.
@@ -23,4 +23,10 @@ Due to the nature of these commits styling requirements will not be a stringent 
 All data found here should be checked with the given source. Don't copy data from here and expect it to be right!
 If you do find a mistake please send a pull request and explain why it is wrong or open up an issue.
 
+### License
+The database itself is licensed under [ODbL 1.0][license].
+Scientific papers or theses are not considered derrivative works of this database.
+This license is just in place to keep it open. The purpose of this database it to collect the enthalpies and point people to their proper sources.
+
 [list]: materials/materials.md
+[license]: https://opendatacommons.org/licenses/odbl/1-0/
